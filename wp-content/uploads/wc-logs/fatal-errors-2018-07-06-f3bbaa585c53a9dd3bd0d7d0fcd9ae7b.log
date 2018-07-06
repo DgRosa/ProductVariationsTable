@@ -1,0 +1,11 @@
+2018-07-06T12:39:39+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on string in /Applications/MAMP/htdocs/variation-table/wp-content/themes/divi-child/woocommerce/content-single-product.php:59
+Stack trace:
+#0 /Applications/MAMP/htdocs/variation-table/wp-includes/template.php(690): require()
+#1 /Applications/MAMP/htdocs/variation-table/wp-content/plugins/woocommerce/includes/wc-core-functions.php(179): load_template('/Applications/M...', false)
+#2 /Applications/MAMP/htdocs/variation-table/wp-content/plugins/woocommerce/templates/single-product.php(37): wc_get_template_part('content', 'single-product')
+#3 /Applications/MAMP/htdocs/variation-table/wp-includes/template-loader.php(74): include('/Applications/M...')
+#4 /Applications/MAMP/htdocs/variation-table/wp-blog-header.php(19): require_once('/Applications/M...')
+#5 /Applications/MAMP/htdocs/variation-table/index.php(17): require('/Applications/M...')
+#6 {main}
+  thrown
+
